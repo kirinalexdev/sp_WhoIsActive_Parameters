@@ -1,5 +1,5 @@
 EXECUTE sp_WhoIsActive
-  @get_full_inner_text = 1 -- выводит весь выполняемый
+  @get_full_inner_text = 1
   ,@get_plans = 1
   ,@get_additional_info = 1
   ,@output_column_list = '[dd hh:mm:ss.mss] [database_name] [percent_complete] [status] [%session_id] [program_name] [sql_text] [wait_info] [%reads] [writes] [cpu] [used_memory] [tempdb_%] [open_tran_count] [query_plan] [%_time] [%] '
